@@ -1,0 +1,4 @@
+IPBDD 127.0.0.1
+BDD test_admission_butmmi
+USERBDD root
+MDPBDD
