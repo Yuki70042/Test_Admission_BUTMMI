@@ -1,5 +1,9 @@
 <?php
 require_once "../src/Utilitaire/Singleton_ConnexionPDO.php";
+include('../src/Utilitaire/afficherHeader.php');
+
+afficherHeader();
+
 
 // Recuperation des valeur renvoyer par le formulaire avec POST
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
