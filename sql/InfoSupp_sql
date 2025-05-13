@@ -1,0 +1,8 @@
+
+Par defaut lors de la creation d'un bdd avec PhpMyAdmin l'utilisateur est root sans mot de passe renseigner et possede l'ensemble des droits (ALL PRIVILEGES)
+
+
+Pour la creation de la table utilisateur, les 10 entrees on ete generees par IA via un script SQL dans un souci de gain de temps.
+De plus les mots de passe, dans le cadre de l'exercice, non pas ete hache ce qui represente une grande faille de securite.
+
+Dans un cadre professionnel il est essentiel d'utiliser la methode : password_hash() de PHP.
